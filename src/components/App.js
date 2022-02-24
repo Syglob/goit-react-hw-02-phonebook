@@ -30,7 +30,7 @@ class App extends React.Component {
   changeFilter = filter => {
     this.setState({ filter });
   };
-
+  //
   getFilteredContacts = () => {
     const { contacts, filter } = this.state;
     return contacts.filter(contact =>
